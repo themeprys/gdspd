@@ -1,0 +1,272 @@
+.gd_navbar {
+    background: #000;
+    min-height: 80px;
+}
+
+.gd_navbarlinks a {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.gd_navbarlinks a:hover {
+    color: #eee;
+}
+.navbar-item img {
+    max-height: none;
+    padding: 20px;
+}
+
+/* Hero  */
+
+.cvhero {
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -200px;
+
+}
+
+.herotitle {
+    color: #f70305;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 0;
+}
+
+.herosubtitle {
+    color: #ddd;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 0;
+}
+
+.gd_herocta {
+    margin: 50px 0;
+   
+}
+
+/* End Hero  */
+
+/* Advantages */
+
+.gd_advantagescontenttab {
+    box-shadow: 7px 0px 20px -4px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 7px 0px 20px -4px rgba(0,0,0,0.53);
+    -moz-box-shadow: 7px 0px 20px -4px rgba(0,0,0,0.53);
+}
+
+.gd_advantagescontenttableft {
+    padding: 0px !important;
+    background: url(~/static/img/advantages.webp) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+.gd_advantagescontenttabright {
+    padding: 50px;
+}
+
+.gd_advantagescontenttabright h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gd_advantagescontenttabright h5 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #a52a2a;
+    padding: 12px 0;
+}
+
+nav.tabs.is-toggle.is-medium {
+    position: absolute;
+    bottom: 0px;
+}
+
+.b-tabs .tabs.is-toggle li a:focus,
+.tabs.is-toggle li.is-active a {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+}
+
+/* End Advantages */
+
+/* Our Process */
+
+.gd_sectionheader p {
+    max-width: 750px;
+    margin: 0 auto 0;
+}
+
+.gd_processicon h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+/* End Our Process  */
+
+.gd_sectionheader h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gd_headingred {
+    color: brown;
+}
+
+.gd_headingwhite {
+    color: white;
+}
+
+/* About Us  */
+
+.gd_wrapabout {
+    background: url(~/static/img/aboutus.webp) no-repeat center right #000;
+    min-height: 550px;
+}
+
+/* Our Services  */
+
+
+.gd_ourserviceswrap {
+    position: relative;
+}
+.gd_ourservicesicon {
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;    
+    z-index: 9999;
+}
+
+.gd_servicelist .card {
+    min-height: 200px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.card-content.gd_ourserviceswrap {
+    background: #e6e6e6;
+    top: 40px;
+    min-height: 250px;
+    padding-top: 50px;    
+}
+.gd_ourserviceswrap .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.gd_ourserviceswrap .subtitle {
+    font-size: 14px;    
+}
+/* End Our Services  */
+
+/* Our Portfolio */
+
+.gd_portfoliowrap {
+    background: #000;
+    color: #ccc;
+}
+.gd_porfoliolist h4 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.gd_porfoliolist .card {
+    background: transparent;
+    color: #ccc;
+}
+
+
+.gd_porfoliolist .b-tabs .tabs.is-toggle li a:focus,
+.gd_porfoliolist .tabs.is-toggle li.is-active a {
+    background-color: #a52a2a;
+    border-color: #a52a2a;
+}
+
+.gd_portfoliowrap .tabs.is-toggle a
+{
+    background-color: #ccc ;
+}
+
+/* End Our Portfolio */
+
+.gd_ourclientsmap {
+    background: url(~/static/img/map.webp) no-repeat center center #b8b8b8;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 650px;
+}
+
+.gd_maps {
+    position: relative;
+}
+.gd_btnmaps {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;    
+}
+
+.gd_hero {
+    background: url(~/static/img/hero.webp) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-body {
+    background-color: #000000bd;
+}
+
+/* Footer */
+
+.gd_footer {
+    background: #000;
+    color: #ddd;
+    padding-bottom:40px;
+}
+
+.gd_footer a {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.gd_footer a:hover {
+    background-color: transparent;
+    color: #ddd;
+}
+
+.gd_footer p strong {
+    color: #ddd !important;
+}
+
+.gd_footer ul.menu-list {
+    list-style-type: disc;
+} 
+.gd_footer ul.menu-list.gd_footercontact {
+    list-style-type: none;    
+}
+.gd_footer p.menu-label {
+    color: #fff;
+    font-size: 22px;
+    
+}
+/* End Footer  */
