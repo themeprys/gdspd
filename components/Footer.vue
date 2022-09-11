@@ -4,10 +4,7 @@
       <div class="columns is-variable is-6">
         <div class="column is-3">
           <img src="~/static/img/logo.webp" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
-            harum quasi voluptatem voluptates accusantium quibusdam, voluptas
-            magni, dolor ipsum quod laborum aperiam assumenda
+          <p class="pt-3">Kami adalah perusahaan kreatif yang bergerak di bidang Production House, khususnya produksi Video.
           </p>
         </div>
         <div class="column is-3 p-6">
@@ -24,7 +21,7 @@
             <ul class="menu-list">
               <li><nuxt-link to="/our-clients">Our Clients</nuxt-link></li>
               <li><nuxt-link to="/our-services">Our Services</nuxt-link></li>
-              <li><nuxt-link to="/#portfolio">Our Portfolio</nuxt-link></li>
+              <li><nuxt-link to="/#ourportfolio">Our Portfolio</nuxt-link></li>
             </ul>
           </aside>
         </div>

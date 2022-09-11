@@ -1,5 +1,5 @@
 <template>
-<div class="gd_portfoliowrap" id="portfolio">
+<div class="gd_portfoliowrap" id="ourportfolio">
   <div class="container py-6">
       <section class="gd_sectionheader has-text-centered">
       <h3 class="is-size-1">Our <span class="gd_headingred">Portfolio</span></h3>

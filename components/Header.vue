@@ -27,6 +27,7 @@
 
       <div class="navbar-end gd_navbarlinks">
         <div class="navbar-item">
+        <nuxt-link class="navbar-item" to="/"> Home </nuxt-link>          
         <nuxt-link class="navbar-item" to="/about-us"> About Us </nuxt-link>
         <nuxt-link class="navbar-item" to="/our-clients"> Our Clients</nuxt-link>
         <nuxt-link class="navbar-item" to="/our-services"> Our Services </nuxt-link>
