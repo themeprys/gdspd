@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-6">
+  <div class="container pt-6 mt-6" id="learnmore">
     <section class="gd_sectionheader has-text-centered pb-3">
       <h3 class="is-size-1">
         Our <span class="gd_headingred">Advantages</span>

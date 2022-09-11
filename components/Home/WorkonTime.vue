@@ -6,12 +6,8 @@
             </div>
             <div class="column is-two-thirds gd_advantagescontenttabright">
               <h4>Work on Time</h4>
-              <h5>Lorem Ipsum</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatibus sint unde quis a quos explicabo suscipit magni
-                earum omnis mollitia, qui iste rerum quae expedita minus ipsam
-                libero tenetur consequuntur?
+              <!-- <h5>Lorem Ipsum</h5> -->
+              <p>Tepat waktu, kecepatan dalam mengerjakan video dan tetap presisi menjadi salah satu nilai lebih kami.
               </p>
             </div>
           </div>

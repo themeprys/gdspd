@@ -2,13 +2,13 @@
   <nav class="navbar gd_navbar" role="navigation" aria-label="main navigation">
       <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <nuxt-link class="navbar-item" to="/">
         <img
           src="~/static/img/logo.webp"
           width="300px"
           height="auto"
         />
-      </a>
+      </nuxt-link>
 
       <a
         role="button"
@@ -27,9 +27,9 @@
 
       <div class="navbar-end gd_navbarlinks">
         <div class="navbar-item">
-        <a class="navbar-item"> About Us </a>
-        <a class="navbar-item"> Our Clients</a>
-        <a class="navbar-item"> Our Services </a>
+        <nuxt-link class="navbar-item" to="/about-us"> About Us </nuxt-link>
+        <nuxt-link class="navbar-item" to="/our-clients"> Our Clients</nuxt-link>
+        <nuxt-link class="navbar-item" to="/our-services"> Our Services </nuxt-link>
         </div>
       </div>
     </div>

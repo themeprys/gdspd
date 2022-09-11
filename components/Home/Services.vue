@@ -1,10 +1,9 @@
 <template>
-  <div class="container py-6">
+  <div class="container py-6" id="ourservices">
     <section class="gd_sectionheader has-text-centered">
       <h3 class="is-size-1">Our <span class="gd_headingred">Services</span></h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
-        harum quasi voluptatem voluptates accusantium quibusdam, voluptas magni
+Beragam kategori video mulai dari company profile, explainer video, tutorial video, elearning, motion grafis sampai kepada webseries telah kami produksi dari tahun 2016 hingga saat ini.
       </p>
     </section>
     <section class="gd_servicelist my-6">

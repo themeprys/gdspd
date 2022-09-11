@@ -2,9 +2,9 @@
   <section class="hero gd_hero is-large">
     <div class="hero-body">
       <p class="cvhero">CV Berkah Imaji Sejahtera</p>
-      <p class="herotitle">We're Helping Businesses</p>
-      <p class="herosubtitle">Large or Small, Achieve Their Marketing Potential</p>
-      <p class="has-text-centered"><a class="button is-large is-white is-outlined gd_herocta">Learn More</a></p>
+      <p class="herotitle">Dengan Video Kami Membantu Komunikasi Anda</p>
+      <p class="herosubtitle">Besar atau Kecil Perusahaanmu, Video Adalah Media Komunikasi yang Jitu !</p>
+      <p class="has-text-centered"><a class="button is-large is-white is-outlined gd_herocta" href="#learnmore">Learn More</a></p>
     </div>
   </section>
 </template>

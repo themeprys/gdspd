@@ -10,7 +10,7 @@
                 <div class="card-content gd_ourserviceswrap">
                     <div class="content">
                         <p class="title is-6">{{ list.title }}</p>
-                        <p class="subtitle is-7">{{ list.desc }}</p>
+                        <!-- <p class="subtitle is-7">{{ list.desc }}</p> -->
                     </div>
                 </div>
             </div>

@@ -6,9 +6,9 @@
       </section>
       <section class="columns has-text-white pb-6">
           <div class="column is-three-fifths">
-          <h4 class="is-size-3 pb-4">Lorem Ipsum Dolor</h4>
-          <p class="pb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit cumque autem vero laborum non, mollitia corrupti voluptate sequi? Officiis sit numquam dolor voluptate quasi, fugiat perspiciatis doloribus nulla adipisci vel.</p>
-          <button class=" button is-large is-white is-outlined">Learn More</button>    
+          <h4 class="is-size-3 pb-4">Godspeed Kreativa (Godspeed)</h4>
+          <p class="pb-6">Godspeed Kreativa (Godspeed) adalah suatu perusahaan yang bergerak dibidang Production House khususnya Video. Dengan melihat dinamika kebutuhan media komunikasi dalam bentuk video yang semakin tinggi dan dinamis, Godspeed hadir untuk selalu mempersembahkan prodak Video terbaik untuk kebutuhan anda.</p>
+          <nuxt-link to="/about-us" class=" button is-large is-white is-outlined">Learn More</nuxt-link>    
         </div>
       </section>
   </div>

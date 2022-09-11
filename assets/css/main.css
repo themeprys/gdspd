@@ -34,16 +34,36 @@
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    /* max-width: 800px; */
+    margin: 0 auto 0;
+}
+
+.gd_hero_about .herotitle {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
     max-width: 800px;
     margin: 0 auto 0;
 }
+
+.gd_hero_about .herosubtitle {
+    color: #ddd;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 0;
+}
+
 
 .herosubtitle {
     color: #ddd;
     font-size: 25px;
     font-weight: 400;
     text-align: center;
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto 0;
 }
 
@@ -159,7 +179,7 @@ nav.tabs.is-toggle.is-medium {
 .card-content.gd_ourserviceswrap {
     background: #e6e6e6;
     top: 40px;
-    min-height: 250px;
+    /* min-height: 250px; */
     padding-top: 50px;    
 }
 .gd_ourserviceswrap .title {
@@ -205,7 +225,8 @@ nav.tabs.is-toggle.is-medium {
 /* End Our Portfolio */
 
 .gd_ourclientsmap {
-    background: url(~/static/img/map.webp) no-repeat center center #b8b8b8;  
+    /* background: url(~/static/img/map.webp) no-repeat center center #b8b8b8;   */
+    background: #b8b8b8;      
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -214,13 +235,13 @@ nav.tabs.is-toggle.is-medium {
 }
 
 .gd_maps {
-    position: relative;
+    /* position: relative; */
 }
 .gd_btnmaps {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     bottom: 20px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     margin: 0 auto;    
 }
 
@@ -231,6 +252,14 @@ nav.tabs.is-toggle.is-medium {
     -o-background-size: cover;
     background-size: cover;
 }
+.gd_hero_about {
+    background: url(~/static/img/about/hero.webp) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 .hero-body {
     background-color: #000000bd;
@@ -270,3 +299,55 @@ nav.tabs.is-toggle.is-medium {
     
 }
 /* End Footer  */
+
+/* About  */
+.gd_aboutagency {
+    background: #ccc;;
+}
+.gd_aboutagency .container {
+    background-color: #fff;
+    padding: 70px 100px;
+    position: relative;
+    top: -100px;
+    border-radius: 25px 25px 0px 0px;
+    -moz-border-radius: 25px 25px 0px 0px;
+    -webkit-border-radius: 25px 25px 0px 0px;
+    border: 0px solid #000000;  
+}
+
+.gd_aboutagency .container h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.gd_aboutagency .container p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.gd_ttd {
+    display: flex;
+    justify-content: center;
+}
+
+.gd_aboutwhy h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    padding: 50px 0 30px;
+}
+
+.gd_aboutwhyicon p {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.gd_aboutwhyicon {
+    padding-bottom: 100px;
+}

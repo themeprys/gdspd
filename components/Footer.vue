@@ -13,18 +13,18 @@
         <div class="column is-3 p-6">
           <aside class="menu">
             <ul class="menu-list">
-              <li><a>Our Advantages</a></li>
-              <li><a>Our Process</a></li>
-              <li><a>About Us</a></li>
+              <li><nuxt-link to="/#learnmore">Our Advantages</nuxt-link></li>
+              <li><nuxt-link to="/#ourprocess">Our Process</nuxt-link></li>
+              <li><nuxt-link to="/about-us">About Us</nuxt-link></li>
             </ul>
           </aside>
         </div>
         <div class="column is-3 p-6">
           <aside class="menu">
             <ul class="menu-list">
-              <li><a>Our Clients</a></li>
-              <li><a>Our Services</a></li>
-              <li><a>Our Portfolio</a></li>
+              <li><nuxt-link to="/our-clients">Our Clients</nuxt-link></li>
+              <li><nuxt-link to="/our-services">Our Services</nuxt-link></li>
+              <li><nuxt-link to="/#portfolio">Our Portfolio</nuxt-link></li>
             </ul>
           </aside>
         </div>

@@ -20,9 +20,9 @@
             <HomeWorkonTime />
           </b-tab-item>
 
-          <b-tab-item label="Projects with Creative Ideas" icon="comment-multiple">
+          <!-- <b-tab-item label="Projects with Creative Ideas" icon="comment-multiple">
             <HomeProjectswithCreativeIdea />
-          </b-tab-item>
+          </b-tab-item> -->
         </b-tabs>
       </section>
     </div>
