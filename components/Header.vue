@@ -9,21 +9,15 @@
           height="auto"
         />
       </nuxt-link>
+          <span class="navbar-burger" data-target="navbarGd">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
 
-      <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasic"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
     </div>
 
-    <div id="navbarBasic" class="navbar-menu">
+    <div id="navbarGd" class="navbar-menu">
 
       <div class="navbar-end gd_navbarlinks">
         <div class="navbar-item">

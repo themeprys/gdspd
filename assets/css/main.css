@@ -1,16 +1,31 @@
+p {
+    font-family: 'Inter', sans-serif;    
+}
+.button {
+    font-family: 'Didact Gothic', sans-serif;    
+}
 .gd_navbar {
     background: #000;
     min-height: 80px;
 }
-
+.gd_navbarwrapper {
+    background-color: black;
+}
 .gd_navbarlinks a {
     background-color: transparent !important;
     color: #fff !important;
+    font-family: 'Inter', sans-serif;
+    margin: 0px 10px;
 }
 
 .gd_navbarlinks a:hover {
     color: #eee;
 }
+.gd_navbarlinks .navbar-end .nuxt-link-exact-active.nuxt-link-active {
+border-bottom: 2px solid #ccc;
+border-width: thin;
+}
+
 .navbar-item img {
     max-height: none;
     padding: 20px;
@@ -36,6 +51,8 @@
     text-align: center;
     /* max-width: 800px; */
     margin: 0 auto 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 50px;
 }
 
 .gd_hero_about .herotitle {
@@ -65,6 +82,7 @@
     text-align: center;
     max-width: 600px;
     margin: 0 auto 0;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .gd_herocta {
@@ -350,4 +368,33 @@ nav.tabs.is-toggle.is-medium {
 
 .gd_aboutwhyicon {
     padding-bottom: 100px;
+}
+
+
+/* Mobile Only  */
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+      }
+     
+    
+    .navbar-burger {
+    margin: 30px 0 0 0 !important;
+}
+.gd_navbarlinks .navbar-menu{
+    background-color: black;
+}
+.gd_navbarlinks .navbar-end .nuxt-link-exact-active.nuxt-link-active {
+    border-bottom: 0px solid #ccc !important;
+    border-width: thin;
+    }
+.gd_aboutdesc {
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+.gd_maps .columns .column {
+    width: 200px;
+    margin: 0 auto 0;
+}
+
 }

@@ -40,7 +40,7 @@
 
       </section>
       <section class="gd_maps is-medium has-text-centered py-6">
-        <button class="gd_btnmaps button is-large is-dark ">See More</button>    
+        <nuxt-link to="/our-clients" class="gd_btnmaps button is-large is-dark ">See More</nuxt-link>    
       </section>
 
   </div>
