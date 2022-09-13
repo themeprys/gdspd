@@ -13,20 +13,24 @@
       <div class="columns has-text-centered">
         <div class="column">
           <b-modal v-model="modal1">
-            <iframe
-              src="https://drive.google.com/file/d/1liiv1g1JWim-zy1g_vgFtjdJBEm8RKJ4/preview"
-              width="640"
-              height="380"
-              allow="autoplay"
-            ></iframe>
+            <div class="embed-container">
+              <iframe
+                src="https://drive.google.com/file/d/1liiv1g1JWim-zy1g_vgFtjdJBEm8RKJ4/preview"
+                width="640"
+                height="380"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </b-modal>
           <b-modal v-model="modal2">
-            <iframe
-              src="https://drive.google.com/file/d/1ZyMeIL6qW1nqa4YXxLiuG8FcEd_6misS/preview"
-              width="640"
-              height="380"
-              allow="autoplay"
-            ></iframe>
+            <div class="embed-container">
+              <iframe
+                src="https://drive.google.com/file/d/1ZyMeIL6qW1nqa4YXxLiuG8FcEd_6misS/preview"
+                width="640"
+                height="380"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </b-modal>
           <div class="card is-shadowless">
             <div class="card-image">
