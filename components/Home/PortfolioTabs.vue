@@ -12,7 +12,7 @@
                 <HomeMotionList />
             </b-tab-item>
 
-            <b-tab-item label="Video">
+            <b-tab-item label="Video Event">
                 <HomeVideoList />
             </b-tab-item>
 
