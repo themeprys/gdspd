@@ -38,7 +38,7 @@
               <li>
                 <a
                   ><b-icon icon="email" size="is-small"> </b-icon
-                  >&nbsp;godspeedstation.idgmail.com</a
+                  >&nbsp;godspeedstation.id@gmail.com</a
                 >
               </li>
             </ul>
