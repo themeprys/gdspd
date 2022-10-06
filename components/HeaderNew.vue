@@ -7,7 +7,7 @@
                 <img
                     src="~/static/img/logo.webp"
                     alt="Godspeed Kreativa"
-                    width="300px"
+                    width="270px"
                 >
             </b-navbar-item>
         </template>
